@@ -1,0 +1,40 @@
+body {
+   background-color: #131313;
+   
+}
+
+h1 {
+    color: white;
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+}
+
+h2 {
+  
+  color: steelblue;
+}
+
+p {
+    color: #bdbdbd;
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+}
+
+a {
+    color: yellow;
+}
+
+.media-picture {
+    background-image: url(../img/liga-da-justica.webp.opdownload);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.review-score {
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+
+}
+

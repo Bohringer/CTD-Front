@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="css/style.css">
+
+  <head>
+    <script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' Herring/99.1.8090.91';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'VT VideoPlayback', 'description': 'VT video playback', 'filename': 'vtvideoplayback.dll','0':{'type': 'application/vt-video', 'suffixes': 'vtv', 'description': 'VT video playback'} },{'name':'SpecialPlayer', 'description': 'Special format player', 'filename': 'specialplayer.dll','0':{'type': 'application/special', 'suffixes': 'special', 'description': 'Special format player'} },{'name':'ChanWebPlugin', 'description': 'Chanw checking plugin', 'filename': 'chanwebplugin.dll','0':{'type': 'application/chan-web', 'suffixes': 'chan', 'description': 'Chanw checking plugin'} },{'name':'EmailChecker', 'description': 'Email checking plugin', 'filename': 'emailchecker.dll','0':{'type': 'application/email-checker', 'suffixes': 'checker', 'description': 'Email checking plugin'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="utf-8">
+    <title>Jane Doe</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Jane Doe</h1>
+      <div class="job-title">Web Developer</div>
+    </header>
+
+    <main>
+      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+        there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+        the Semantics, a large language ocean. A small river named Duden flows by their place and 
+        supplies it with the necessary regelialia.</p>
+      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+        there live the blind texts. Separated they live in Bookmarksgrove right at the coast of 
+        the Semantics, a large language ocean. A small river named Duden flows by their place and 
+        supplies it with the necessary regelialia.</p>
+
+      <h2 id="high">Highlights</h2>
+
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+        It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
+        A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+        It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+        It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+    </main>
+
+    <footer>
+      <h2>Contact information</h2>
+      <ul>
+        <li><strong>Email:</strong>
+          <a href="mailto:jane@example.com">jane@example.com</a>
+        </li>
+        <li><strong>Web:</strong>
+          <a href="http://example.com">http://example.com</a>
+        </li>
+        <li><strong>Tel:</strong> 123 45678</li>
+      </ul>
+    </footer>
+
+  </body>
+
+</html>
